@@ -4,7 +4,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
 
-export const Post = () => {
+export const FirstPost = () => {
   return (
     <>
       <Card sx={{ my: 5, boxShadow: 3 }}>
@@ -26,7 +26,7 @@ export const Post = () => {
           component='img'
           // height='194'
           height='20%'
-          image='pexels-anna-urlapova.jpg'
+          image='pexels-boris-ulzibat.jpg'
           alt='Paella dish'
         />
         <CardContent>
